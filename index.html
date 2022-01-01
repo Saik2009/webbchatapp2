@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GoMessage</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <style>
+        #wn {
+            font-family: 'Amiri', serif;
+        }
+
+        center {
+            padding: 200px;
+        }
+
+        body {
+            background: url("changing.gif");
+            background-size: cover;
+        }
+
+        #signin {
+            background-color: azure;
+            height: 300px;
+            border-radius: 30px;
+            width: 60%
+        }
+
+        button {
+            background-color: greenyellow;
+        }
+    </style>
+    <center>
+        <div id=signin>
+            <h1 id="wn">GoMessage <sup><img src="icon.png" height="60px"></sup></h1>
+
+            <h3>Nickname:</h3>
+            <input width="50%" class="form-group" id="userinput"><br>
+            <button class="btn btn sucess" onclick="storeuserlocal()">Enter</button>
+        </div>
+    </center>
+</body>
